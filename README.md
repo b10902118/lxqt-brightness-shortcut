@@ -3,7 +3,7 @@ lxqt backlight adjustment program with popup indicator
 
 ## Installation
 ### Python version (recommended)
-Run ```install.sh``` and follow the hints
+Run ```install.sh``` and follow the instruction
 
 ### C version
 dependency: libnotify
