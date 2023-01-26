@@ -3,7 +3,8 @@ lxqt backlight adjustment program with popup indicator
 Dependency: xbacklight, dbus-python (Python), libnotify (C)
 
 ## Demo
-![](https://i.imgur.com/F6imCmF.gif)
+
+![](https://github.com/b10902118/lxqt-brightness-shortcut/blob/main/demo.gif)
 
 ## Installation
 ### Python3 version (recommended)
