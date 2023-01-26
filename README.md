@@ -9,7 +9,7 @@ xbacklight, dbus-python (Python), libnotify (C)
 
 ## Installation
 ### Python3 version (recommended)
-Run ```install.sh``` and follow the instruction
+Run ```install.sh``` and follow the instructions
 
 ### C version
 1. Open brightness.c and check whether the paths in the macros points to a file. If not, find your backlight files (probably under /sys/class/backlight/) and change the macros to their path.
