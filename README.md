@@ -1,14 +1,17 @@
 # lxqt-brightness-shortcut
 lxqt backlight adjustment program with popup indicator
+Dependency: xbacklight, dbus-python (Python), libnotify (C)
+
+## Demo
+![](https://i.imgur.com/F6imCmF.gif)
 
 ## Installation
-### Python version (recommended)
+### Python3 version (recommended)
 Run ```install.sh``` and follow the instruction
 
 ### C version
-dependency: libnotify
 1. Open brightness.c and check whether the paths in the macros points to a file. If not, find your backlight files (probably under /sys/class/backlight/) and change the macros to their path.
-2. ```make``` will create a executable called ```release``` (there is a precompiled one)
+2. ```make``` will create a executable called ```release``` 
 3. Add shortcuts with command \
 ```path/to/executable dec``` for decrement \
 ```path/to/executable inc``` for increment \
