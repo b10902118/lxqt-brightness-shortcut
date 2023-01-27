@@ -1,5 +1,5 @@
 # lxqt-brightness-shortcut
-lxqt backlight adjustment program with popup indicator \
+lxqt backlight adjustment program with popup indicator
 ## Dependency: 
 xbacklight, dbus-python (Python), libnotify (C)
 
